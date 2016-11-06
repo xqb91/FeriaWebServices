@@ -1,0 +1,26 @@
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe.config
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.pdb
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.csprojResolveAssemblyReference.cache
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Form1.resources
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Properties.Resources.resources
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.csproj.GenerateResource.Cache
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.exe
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe.config
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Form1.resources
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Properties.Resources.resources
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.csproj.GenerateResource.Cache
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.exe
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe.config
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.exe
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.exe
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\bin\Debug\AplicacionDePrueba.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Form1.resources
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.Properties.Resources.resources
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.csproj.GenerateResource.Cache
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\AplicacionDePrueba\obj\Debug\AplicacionDePrueba.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Release\CapaDTO.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Release\CapaDTO.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Release\CapaDTO.csprojResolveAssemblyReference.cache
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Release\CapaDTO.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Release\CapaDTO.pdb

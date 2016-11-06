@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaConexion", "CapaConexion\CapaConexion.csproj", "{BBB15F00-E54F-44FD-9C17-F803217AA9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDTO", "CapaDTO\CapaDTO.csproj", "{8434B819-D638-45B0-8814-8DA622CE2DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{D632F915-3024-470A-980E-A7E0797F6DF6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaServicios", "CapaServicios\", "{FAD834D3-EC6D-45CE-83A4-163635F1D4BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{8434b819-d638-45b0-8814-8da622ce2dc9}|CapaDTO.dll;{bbb15f00-e54f-44fd-9c17-f803217aa9af}|CapaConexion.dll;{d632f915-3024-470a-980e-a7e0797f6df6}|CapaNegocio.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64929"
+		Debug.AspNetCompiler.PhysicalPath = "CapaServicios\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64929\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64929"
+		Release.AspNetCompiler.PhysicalPath = "CapaServicios\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64929\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64929"
+		SlnRelativePath = "CapaServicios\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionDePrueba", "AplicacionDePrueba\AplicacionDePrueba.csproj", "{00E8933E-053D-4BF1-98CC-341F65CA4211}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FAD834D3-EC6D-45CE-83A4-163635F1D4BE} = {FAD834D3-EC6D-45CE-83A4-163635F1D4BE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB15F00-E54F-44FD-9C17-F803217AA9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB15F00-E54F-44FD-9C17-F803217AA9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB15F00-E54F-44FD-9C17-F803217AA9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB15F00-E54F-44FD-9C17-F803217AA9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8434B819-D638-45B0-8814-8DA622CE2DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8434B819-D638-45B0-8814-8DA622CE2DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8434B819-D638-45B0-8814-8DA622CE2DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8434B819-D638-45B0-8814-8DA622CE2DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D632F915-3024-470A-980E-A7E0797F6DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D632F915-3024-470A-980E-A7E0797F6DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D632F915-3024-470A-980E-A7E0797F6DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D632F915-3024-470A-980E-A7E0797F6DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD834D3-EC6D-45CE-83A4-163635F1D4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD834D3-EC6D-45CE-83A4-163635F1D4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD834D3-EC6D-45CE-83A4-163635F1D4BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD834D3-EC6D-45CE-83A4-163635F1D4BE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{00E8933E-053D-4BF1-98CC-341F65CA4211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E8933E-053D-4BF1-98CC-341F65CA4211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E8933E-053D-4BF1-98CC-341F65CA4211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E8933E-053D-4BF1-98CC-341F65CA4211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

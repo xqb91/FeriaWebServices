@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="retornaTodosLosPaises">
+        <s:complexType />
+      </s:element>
+      <s:element name="retornaTodosLosPaisesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retornaTodosLosPaisesResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="guardarPais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pais" type="tns:Pais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Pais">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="guardarPaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="guardarPaisResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="posicionPais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="posicion" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="posicionPaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="posicionPaisResult" type="tns:Pais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscaPais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idPais" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscaPaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscaPaisResult" type="tns:Pais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="actualizaPais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pais" type="tns:Pais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="actualizaPaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="actualizaPaisResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminaPais">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idPais" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="eliminaPaisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="eliminaPaisResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="esActivo">
+        <s:complexType />
+      </s:element>
+      <s:element name="esActivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="esActivoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="retornaTodosLosPaisesSoapIn">
+    <wsdl:part name="parameters" element="tns:retornaTodosLosPaises" />
+  </wsdl:message>
+  <wsdl:message name="retornaTodosLosPaisesSoapOut">
+    <wsdl:part name="parameters" element="tns:retornaTodosLosPaisesResponse" />
+  </wsdl:message>
+  <wsdl:message name="guardarPaisSoapIn">
+    <wsdl:part name="parameters" element="tns:guardarPais" />
+  </wsdl:message>
+  <wsdl:message name="guardarPaisSoapOut">
+    <wsdl:part name="parameters" element="tns:guardarPaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="posicionPaisSoapIn">
+    <wsdl:part name="parameters" element="tns:posicionPais" />
+  </wsdl:message>
+  <wsdl:message name="posicionPaisSoapOut">
+    <wsdl:part name="parameters" element="tns:posicionPaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaPaisSoapIn">
+    <wsdl:part name="parameters" element="tns:buscaPais" />
+  </wsdl:message>
+  <wsdl:message name="buscaPaisSoapOut">
+    <wsdl:part name="parameters" element="tns:buscaPaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="actualizaPaisSoapIn">
+    <wsdl:part name="parameters" element="tns:actualizaPais" />
+  </wsdl:message>
+  <wsdl:message name="actualizaPaisSoapOut">
+    <wsdl:part name="parameters" element="tns:actualizaPaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="eliminaPaisSoapIn">
+    <wsdl:part name="parameters" element="tns:eliminaPais" />
+  </wsdl:message>
+  <wsdl:message name="eliminaPaisSoapOut">
+    <wsdl:part name="parameters" element="tns:eliminaPaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="esActivoSoapIn">
+    <wsdl:part name="parameters" element="tns:esActivo" />
+  </wsdl:message>
+  <wsdl:message name="esActivoSoapOut">
+    <wsdl:part name="parameters" element="tns:esActivoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServicePaisSoap">
+    <wsdl:operation name="retornaTodosLosPaises">
+      <wsdl:input message="tns:retornaTodosLosPaisesSoapIn" />
+      <wsdl:output message="tns:retornaTodosLosPaisesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="guardarPais">
+      <wsdl:input message="tns:guardarPaisSoapIn" />
+      <wsdl:output message="tns:guardarPaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="posicionPais">
+      <wsdl:input message="tns:posicionPaisSoapIn" />
+      <wsdl:output message="tns:posicionPaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaPais">
+      <wsdl:input message="tns:buscaPaisSoapIn" />
+      <wsdl:output message="tns:buscaPaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizaPais">
+      <wsdl:input message="tns:actualizaPaisSoapIn" />
+      <wsdl:output message="tns:actualizaPaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminaPais">
+      <wsdl:input message="tns:eliminaPaisSoapIn" />
+      <wsdl:output message="tns:eliminaPaisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="esActivo">
+      <wsdl:input message="tns:esActivoSoapIn" />
+      <wsdl:output message="tns:esActivoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServicePaisSoap" type="tns:WebServicePaisSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retornaTodosLosPaises">
+      <soap:operation soapAction="http://tempuri.org/retornaTodosLosPaises" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guardarPais">
+      <soap:operation soapAction="http://tempuri.org/guardarPais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="posicionPais">
+      <soap:operation soapAction="http://tempuri.org/posicionPais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscaPais">
+      <soap:operation soapAction="http://tempuri.org/buscaPais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizaPais">
+      <soap:operation soapAction="http://tempuri.org/actualizaPais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminaPais">
+      <soap:operation soapAction="http://tempuri.org/eliminaPais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="esActivo">
+      <soap:operation soapAction="http://tempuri.org/esActivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServicePaisSoap12" type="tns:WebServicePaisSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retornaTodosLosPaises">
+      <soap12:operation soapAction="http://tempuri.org/retornaTodosLosPaises" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guardarPais">
+      <soap12:operation soapAction="http://tempuri.org/guardarPais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="posicionPais">
+      <soap12:operation soapAction="http://tempuri.org/posicionPais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscaPais">
+      <soap12:operation soapAction="http://tempuri.org/buscaPais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizaPais">
+      <soap12:operation soapAction="http://tempuri.org/actualizaPais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminaPais">
+      <soap12:operation soapAction="http://tempuri.org/eliminaPais" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="esActivo">
+      <soap12:operation soapAction="http://tempuri.org/esActivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServicePais">
+    <wsdl:port name="WebServicePaisSoap" binding="tns:WebServicePaisSoap">
+      <soap:address location="http://localhost:64929/WebServicePais.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServicePaisSoap12" binding="tns:WebServicePaisSoap12">
+      <soap12:address location="http://localhost:64929/WebServicePais.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

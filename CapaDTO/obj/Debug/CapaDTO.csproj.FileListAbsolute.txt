@@ -1,0 +1,13 @@
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaDTO\bin\Debug\CapaDTO.dll
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaDTO\bin\Debug\CapaDTO.pdb
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaDTO\obj\Debug\CapaDTO.dll
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaDTO\obj\Debug\CapaDTO.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Debug\CapaDTO.dll
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Debug\CapaDTO.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Debug\CapaDTO.dll
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Debug\CapaDTO.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Debug\CapaDTO.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\bin\Debug\CapaDTO.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Debug\CapaDTO.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Debug\CapaDTO.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaDTO\obj\Debug\CapaDTO.csprojResolveAssemblyReference.cache

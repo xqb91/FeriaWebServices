@@ -1,0 +1,16 @@
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaConexion\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\MarcoAntonio\Desktop\Web Services\feriaWeb\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Victor Manuel Araya\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Debug\CapaConexion.csprojResolveAssemblyReference.cache

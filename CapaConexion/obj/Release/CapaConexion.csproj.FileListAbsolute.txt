@@ -1,0 +1,6 @@
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Release\CapaConexion.csprojResolveAssemblyReference.cache
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Release\CapaConexion.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Release\CapaConexion.pdb
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Release\CapaConexion.dll
+C:\Users\MarcoAntonio\Dropbox\Portafolio de Título\Web Services - Sin ID\feriaWeb\CapaConexion\obj\Release\CapaConexion.pdb
